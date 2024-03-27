@@ -1,28 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-01T15:25:16 IST" name="Default suite" finished-at="2024-03-01T15:25:27 IST" duration-ms="10180">
+  <suite started-at="2024-03-27T11:43:41Z" name="Suite" finished-at="2024-03-27T11:44:04Z" duration-ms="22650">
     <groups>
-      <group name="ErrorHandling">
-        <method signature="ErrorValidationsTest.LoginError()[pri:0, instance:rahulshettyAcademy.tests.ErrorValidationsTest@3ba987b8]" name="LoginError" class="rahulshettyAcademy.tests.ErrorValidationsTest"/>
-      </group> <!-- ErrorHandling -->
+      <group name="checkingError">
+        <method signature="EcommerceApplication.errorValidation(java.util.HashMap)[pri:0, instance:Ecommerce.TestCases.EcommerceApplication@5a3bc7ed]" name="errorValidation" class="Ecommerce.TestCases.EcommerceApplication"/>
+      </group> <!-- checkingError -->
     </groups>
-    <test started-at="2024-03-01T15:25:16 IST" name="Default test" finished-at="2024-03-01T15:25:27 IST" duration-ms="10180">
-      <class name="rahulshettyAcademy.tests.ErrorValidationsTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyAcademy.tests.ErrorValidationsTest@3ba987b8]" started-at="2024-03-01T15:25:17 IST" name="launchApplication" finished-at="2024-03-01T15:25:23 IST" duration-ms="6095" status="PASS">
+    <test started-at="2024-03-27T11:43:41Z" name="Test1" finished-at="2024-03-27T11:44:04Z" duration-ms="22564">
+      <class name="Ecommerce.TestCases.EcommerceApplication">
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:Ecommerce.TestCases.EcommerceApplication@5a3bc7ed]" started-at="2024-03-27T17:13:42Z" name="loginApplication" finished-at="2024-03-27T17:13:48Z" duration-ms="5889" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="LoginError()[pri:0, instance:rahulshettyAcademy.tests.ErrorValidationsTest@3ba987b8]" started-at="2024-03-01T15:25:23 IST" name="LoginError" finished-at="2024-03-01T15:25:27 IST" duration-ms="3925" status="PASS">
+        </test-method> <!-- loginApplication -->
+        <test-method signature="errorValidation(java.util.HashMap)[pri:0, instance:Ecommerce.TestCases.EcommerceApplication@5a3bc7ed]" started-at="2024-03-27T17:13:48Z" name="errorValidation" data-provider="getData" finished-at="2024-03-27T17:13:48Z" duration-ms="567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Devisrinu123@, product=zara coat 3, email=srinusid830@gmail.com}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyAcademy.tests.ErrorValidationsTest@3ba987b8]" started-at="2024-03-01T15:25:27 IST" name="tearDown" finished-at="2024-03-01T15:25:27 IST" duration-ms="108" status="PASS">
+        </test-method> <!-- errorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Ecommerce.TestCases.EcommerceApplication@5a3bc7ed]" started-at="2024-03-27T17:13:48Z" name="teardown" finished-at="2024-03-27T17:13:49Z" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- rahulshettyAcademy.tests.ErrorValidationsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:Ecommerce.TestCases.EcommerceApplication@5a3bc7ed]" started-at="2024-03-27T17:13:49Z" name="loginApplication" finished-at="2024-03-27T17:13:53Z" duration-ms="4606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.TestCases.EcommerceApplication@5a3bc7ed]" started-at="2024-03-27T17:13:53Z" name="submitOrder" data-provider="getData" finished-at="2024-03-27T17:14:04Z" duration-ms="10631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Devisrinu123@, product=zara coat 3, email=srinusid830@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Ecommerce.TestCases.EcommerceApplication@5a3bc7ed]" started-at="2024-03-27T17:14:04Z" name="teardown" finished-at="2024-03-27T17:14:04Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Ecommerce.TestCases.EcommerceApplication -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-03-27T11:44:04Z" name="Test2" finished-at="2024-03-27T11:44:04Z" duration-ms="9">
+      <class name="Ecommerce.TestCases.ErrorValidation">
+        <test-method signature="errorValidation(java.util.HashMap)[pri:0, instance:Ecommerce.TestCases.ErrorValidation@58ce9668]" started-at="2024-03-27T17:14:04Z" name="errorValidation" data-provider="getData" finished-at="2024-03-27T17:14:04Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util.HashMap) throws java.lang.InterruptedException requires a @DataProvider named : getData]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util.HashMap) throws java.lang.InterruptedException requires a @DataProvider named : getData
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:265)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:414)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1389)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1081)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1186)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorValidation -->
+      </class> <!-- Ecommerce.TestCases.ErrorValidation -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

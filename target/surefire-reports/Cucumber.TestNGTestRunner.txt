@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Cucumber.TestNGTestRunner
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.611 s <<< FAILURE! -- in Cucumber.TestNGTestRunner
-Cucumber.TestNGTestRunner.runScenario["Positive Test of submitting the order", "Purchase the order from Ecommerce Website"](1) -- Time elapsed: 0.196 s <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "LoginPageObjectClass.LoginPage.loginApplication(String, String)" because "this.loginPage" is null
-	at Cucumber.stepDefinition.StepDefinitionImpl.logged_in_Username_and_Password(StepDefinitionImpl.java:33)
-	at ✽.Logged in with username srinusid830@gmail.com and password Devisrinu123@(file:///C:/Users/srinu/eclipse-workspace/seleniumFrameWork/src/test/java/Cucumber/PurchaseOrder.feature:11)
-
