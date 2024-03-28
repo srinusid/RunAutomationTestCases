@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,12 +48,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\srinu\eclipse-workspace\EcommerceApplication\TestNGSuite\testng.xml</span>
+                    <span>C:\Users\srinu\eclipse-workspace\EcommerceApplication\TestNGSuite\Purchases.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,21 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Ecommerce.TestCases.ErrorValidation" class="method navigator-link" hash-for-method="errorValidation">errorValidation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -135,48 +121,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Ecommerce.TestCases.ErrorValidation</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="errorValidation">
-                  </a> <!-- errorValidation -->
-                  <span class="method-name">errorValidation</span>
-                  <div class="stack-trace"><b>"org.testng.TestNGException: 
-Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util.HashMap) throws java.lang.InterruptedException requires a @DataProvider named : getData
-... Removed 21 stack frames<br/> org.testng.TestNGException: 
-Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util.HashMap) throws java.lang.InterruptedException requires a @DataProvider named : getData
-	at org.testng.internal.Parameters.findDataProvider(Parameters.java:265)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:414)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1389)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1081)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1186)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
-	at org.testng.TestNG.run(TestNG.java:1030)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-"</b><br>org.testng.internal.Parameters.findDataProvider(Parameters.java:265)<br>org.testng.internal.Parameters.handleParameters(Parameters.java:414)<br>org.testng.internal.Invoker.handleParameters(Invoker.java:1389)<br>org.testng.internal.Invoker.createParameters(Invoker.java:1081)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1186)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1122)<br>org.testng.TestNG.run(TestNG.java:1030)<br>org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br>org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br>org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br>
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -204,7 +148,7 @@ Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\srinu\eclipse-workspace\EcommerceApplication\TestNGSuite\testng.xml</span>
+            <span class="header-content">C:\Users\srinu\eclipse-workspace\EcommerceApplication\TestNGSuite\Purchases.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -216,11 +160,6 @@ Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util
       &lt;class name=&quot;Ecommerce.TestCases.EcommerceApplication&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
-  &lt;test name=&quot;Test2&quot; preserve-order=&quot;true&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Ecommerce.TestCases.ErrorValidation&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -233,9 +172,6 @@ Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util
             <ul>
               <li>
                 <span class="test-name">Test1 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -269,19 +205,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'Ecommerce.TestCases.EcommerceApplication')
-data.setCell(0, 3, 10631);
+data.setCell(0, 3, 11523);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'errorValidation')
 data.setCell(1, 2, 'Ecommerce.TestCases.EcommerceApplication')
-data.setCell(1, 3, 567);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'errorValidation')
-data.setCell(2, 2, 'Ecommerce.TestCases.ErrorValidation')
-data.setCell(2, 3, 0);
+data.setCell(1, 3, 323);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -319,23 +251,23 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">errorValidation({password=Devisrinu123@, product=zara coat 3, email=srinusid830@gmail.com})</span>
-                <span class="method-start">5889 ms</span>
+                <span class="method-start">7351 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">6458 ms</span>
+                <span class="method-start">7675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">loginApplication</span>
-                <span class="method-start">6613 ms</span>
+                <span class="method-start">7793 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitOrder({password=Devisrinu123@, product=zara coat 3, email=srinusid830@gmail.com})</span>
-                <span class="method-start">11219 ms</span>
+                <span class="method-start">15020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">21851 ms</span>
+                <span class="method-start">26545 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

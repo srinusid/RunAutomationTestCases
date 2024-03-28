@@ -29,61 +29,27 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">22.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="stripe"><td style="text-align:left;padding-right:2em">Test2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
-<tr class="total"><td>Total</td>
-<td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">22.6 seconds</td><td colspan="2">&nbsp;</td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">26.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Test1 &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">Ecommerce.TestCases.EcommerceApplication<td><a href="#m1"><b>errorValidation</b> (checkingError) </a></td><td class="numi">1</td><td>1711539828311</td><td class="numi">567</td></tr><tr class="passedodd"><td><a href="#m2"><b>submitOrder</b>  </a></td><td class="numi">1</td><td>1711539833641</td><td class="numi">10631</td></tr>
-<tr><th colspan="4">Test2 &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">Ecommerce.TestCases.ErrorValidation<td><a href="#m3"><b>errorValidation</b>  </a></td><td class="numi">1</td><td>1711539844574</td><td class="numi">0</td></tr>
+<tr class="passedodd"><td rowspan="2">Ecommerce.TestCases.EcommerceApplication<td><a href="#m1"><b>errorValidation</b> (checkingError) </a></td><td class="numi">1</td><td>1711601721131</td><td class="numi">323</td></tr><tr class="passedodd"><td><a href="#m2"><b>submitOrder</b>  </a></td><td class="numi">1</td><td>1711601728800</td><td class="numi">11523</td></tr>
 </table>
 <h1>Test1</h1>
-<a id="m1"></a><h2>Ecommerce.TestCases.EcommerceApplication:submitOrder</h2>
+<a id="m1"></a><h2>Ecommerce.TestCases.EcommerceApplication:errorValidation</h2>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
 <tr><td style="padding-left:.5em;padding-right:2em">{password=Devisrinu123@, product=zara coat 3, email=srinusid830@gmail.com}</td>
 </tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>Ecommerce.TestCases.EcommerceApplication:errorValidation</h2>
+<a id="m2"></a><h2>Ecommerce.TestCases.EcommerceApplication:submitOrder</h2>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th></tr>
 <tr><td style="padding-left:.5em;padding-right:2em">{password=Devisrinu123@, product=zara coat 3, email=srinusid830@gmail.com}</td>
 </tr>
 </table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h1>Test2</h1>
-<a id="m3"></a><h2>Ecommerce.TestCases.ErrorValidation:errorValidation</h2>
-<div style="padding-left:3em">
-<p>
-Method public void Ecommerce.TestCases.ErrorValidation.errorValidation(java.util.HashMap) throws java.lang.InterruptedException requires a @DataProvider named : getData</p>
-org.testng.internal.Parameters.findDataProvider(Parameters.java:265)
-<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:414)
-<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1389)
-<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1081)
-<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1186)
-<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
-<br/>at org.testng.TestRunner.run(TestRunner.java:617)
-<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
-<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
-<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
-<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
-<br/>at org.testng.TestNG.run(TestNG.java:1030)
-<br/>at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-<br/>at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-<br/>at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-<br/>1 lines not shown
-</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
